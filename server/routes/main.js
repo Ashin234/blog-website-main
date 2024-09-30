@@ -123,51 +123,51 @@ router.get('/about', (req, res) => {
 });
 
 
-function insertPostData () {
-  Post.insertMany([
-    {
-      title: "Latest Fashion Trends",
-      body: "Check out the newest styles and trends for this season. From bright colors to cool patterns, find out what's hot right now."
-    },
-    {
-      title: "Accessorize Your Look",
-      body: "Learn how to add accessories to your outfits. Jewelry, bags, and more – discover easy ways to upgrade your style."
-    },
-    {
-      title: "Go Green with Fashion",
-      body: "Explore eco-friendly fashion choices. Find out about clothes that are good for the planet and where to get them."
-    },
-    {
-      title: "Dress Like a Star",
-      body: "Get fashion inspiration from your favorite celebrities. See what they wear on the red carpet and how you can get the look."
-    },
-    {
-      title: "DIY Fashion Fun",
-      body: "Try your hand at fashion projects. Learn to transform old clothes into something new and express your unique style."
-    },
-    {
-      title: "Wardrobe Essentials",
-      body: "Simplify your closet with key pieces. Discover timeless clothes that go with everything and make getting dressed easy."
-    },
-    {
-      title: "Fashion Week Behind the Scenes",
-      body: "See what happens behind the scenes at fashion week. From models to makeup, get a sneak peek into the world of high fashion."
-    },
-    {
-      title: "Cultural Style Influences",
-      body: "Explore how different cultures inspire fashion. Learn about styles from around the world and how to mix them into your own look."
-    },
-    {
-      title: "Confident Style Tips",
-      body: "Find out how your clothes can boost your confidence. Learn to express yourself through fashion and feel great about it."
-    },
-    {
-      title: "Simple Wardrobe Tips",
-      body: "Get tips for a simple and stylish wardrobe. Learn about classic pieces that never go out of style."
-    },
-  ])
-}
+// function insertPostData () {
+//   Post.insertMany([
+//     {
+//       title: "Latest Fashion Trends",
+//       body: "Check out the newest styles and trends for this season. From bright colors to cool patterns, find out what's hot right now."
+//     },
+//     {
+//       title: "Accessorize Your Look",
+//       body: "Learn how to add accessories to your outfits. Jewelry, bags, and more – discover easy ways to upgrade your style."
+//     },
+//     {
+//       title: "Go Green with Fashion",
+//       body: "Explore eco-friendly fashion choices. Find out about clothes that are good for the planet and where to get them."
+//     },
+//     {
+//       title: "Dress Like a Star",
+//       body: "Get fashion inspiration from your favorite celebrities. See what they wear on the red carpet and how you can get the look."
+//     },
+//     {
+//       title: "DIY Fashion Fun",
+//       body: "Try your hand at fashion projects. Learn to transform old clothes into something new and express your unique style."
+//     },
+//     {
+//       title: "Wardrobe Essentials",
+//       body: "Simplify your closet with key pieces. Discover timeless clothes that go with everything and make getting dressed easy."
+//     },
+//     {
+//       title: "Fashion Week Behind the Scenes",
+//       body: "See what happens behind the scenes at fashion week. From models to makeup, get a sneak peek into the world of high fashion."
+//     },
+//     {
+//       title: "Cultural Style Influences",
+//       body: "Explore how different cultures inspire fashion. Learn about styles from around the world and how to mix them into your own look."
+//     },
+//     {
+//       title: "Confident Style Tips",
+//       body: "Find out how your clothes can boost your confidence. Learn to express yourself through fashion and feel great about it."
+//     },
+//     {
+//       title: "Simple Wardrobe Tips",
+//       body: "Get tips for a simple and stylish wardrobe. Learn about classic pieces that never go out of style."
+//     },
+//   ])
+// }
 
-insertPostData();
+// insertPostData();
 
 module.exports = router;
